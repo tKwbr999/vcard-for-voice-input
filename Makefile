@@ -1,4 +1,4 @@
-.PHONY: open
-open:
+.PHONY: run
+run:
 	go run ./cmd/main.go
-	open contacts.vcf
+	open voiceinput.vcf
